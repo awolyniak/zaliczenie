@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Największe erupcje wulkanów</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+<script src="https://js.arcgis.com/4.14/"></script>
+<script src="scripts/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Największe erupcje wulkanów</h1>
+    </header>
+    
+	<section class="left"  style="background-image: url(yellowstone.jpg)";>
+		<button class="button">Park Yellowstone (USA)</button>
+			<p>Cały park Yellowstone to właściwie jeden wielki aktywny wulkan. Naukowcy dotarli do śladów trzech erupcji o sile 8 w skali VEI. 
+			Pierwsza miała miejsce 2,1 mln lat temu, druga 1,2 mln lat temu, a trzecia sprzed 640 tys lat. 
+			Badacze przekonują, że ilość wyrzuconej łącznie podczas tych trzech wydarzeń lawy 11 razy zatopiłaby cały Kanion Kolorado.</p>
+	</section>
+	
+	<section class="right" style="background-image: url(krakatau.jpg)";>
+		<button class="button">Krakatau (Indonezja)</button>
+		<p>Wybuch wulkanu w 1883 słyszalny był z odległości nawet 4300km.  
+		Eksplozja spowodowała ogromne fale tsunami o wysokości dochodzących ponad 40metrów oraz spowodowała śmierć 40tys. osób. 
+		Popiół z wulkanu pokrył niemal 70% powierzchni Ziemi, Słońce widziane z Ziemi przez trzy lata miało zabarwienie zielone, a Księżyc niebieskie.</p>
+	</section>
+	
+	<section class="left" style="background-image: url(tambora.jpg)";>
+		<button class="button">Tambora (Indonezja)</button>
+		<p>Erupcja wydarzyła się w kwietniu 1815 roku i była słyszana z ponad 2000km.
+		Do skutków należy zaliczyć tak zwany "rok bez lata", podczas którego nastąpiły braki w plonach, głód i obniżenie temperatury na świecie o 3-4 stopnie. 
+		Oprócz tego należy doliczyć fale tsunami, trzęsienia ziemi oraz śmierć prawie 12tys.osób bezpośrednio po erupcji.</p>
+	</section>
+	
+	<section class="right"  style="background-image: url(mount_pinatubo.jpg)";>
+		<button class="button">Mount Pinatubo (Filipiny)</button>
+		<p>Erupcja wulkanu Mount Pinatubo na Filipinach w 1991 sprawiła, że dachy niektórych domów nie wytrzymywały naporu pyłu i po prostu się zawalały. 
+		Oprócz tego w powietrzu znalazły się setki ton dwutlenku siarki. 
+		Roznoszone wraz z frontami atmosferycznymi sprawiły, że tego lata temperatura obniżyła się średnio o pół stopnia przez cały kolejny rok.</p>
+	</section>
+	
+	<section class="left" style="background-image: url(wezuwiusz.jpg)";>
+		<button class="button">Wezuwiusz (Włochy)</button>
+		<p>W 79 roku Wezuwiusz doszczętnie zniszczył miasta południowych Włoch. 
+		Obszary te zostały przykryte warstwą popiołu, których grubość miejscami dochodziła nawet do 7 metrów.
+		Główną przyczyną śmierci mieszkańców była wysoka temperatura osiągająca 600 stopni Celsjusza. 
+		Uśpiony Wezuwiusz jest ciągłym zagrożeniem dla mieszkańców Neapolu.</p>
+	</section>
+	
+	<section class="right" style="background-image: url(montagne_pelee.jpg)";>
+		<button class="button">Montagne Pelée (Martynika)</button>
+		<p>8 maja 1902 roku erupcja wulkanu Montagne Pelée doprowadziła do powstania lawiny piroklastycznej, 
+		która pędząc na miasto Saint-Pierre dokonała straszliwych zniszczeń. 
+		Erupcja ta pochłonęła ponad 30tys. ofiar. Tragedię tę przeżyły jedynie trzy osoby.</p>
+	</section>
+	
+	<section class="left" style="background-image: url(santa_maria.jpg)";>
+		<button class="button">Santa Maria (Gwatemala)</button>
+		<p>Erupcja tego wulkanu określana jest jako jedna z największych w XX w.  
+		Po eksplozji w 1902 pozostał krater o średnicy 1,5 kilometra. 
+		W 1929 nastąpił wulkan wyrzucił w przestrzeń chmurę dymu i gorącego pyłu wulkanicznego, 
+		która zabiła 5 tysięcy osób.</p>
+	</section>
+
+    
+    <div>
+		<div class="map" id="map"></div>
+		<button class = "button" id="mapSat">Mapa satelitarna</button>
+		<button class = "button" id="mapTopo">Mapa topograficzna</button>
+		<button class = "button" id="mapOSM">Mapa OSM</button>
+		<button class = "button" id="mapAGOL">AGOL</button>
+	</div>
+
+
+    <footer>
+        <p>Copyright &copy; Aleksandra Wołyniak, 2020<p>
+	</footer>
+	
+    </body>
+    </html>
